@@ -1,0 +1,5 @@
+T__0=1
+CHAR=2
+STRING=3
+COMMENT=4
+';'=1
