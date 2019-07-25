@@ -1,7 +1,7 @@
 import * as antlr4 from 'antlr4';
-import { QuerySeparationGrammarLexer } from './_genfiles/QuerySeparationGrammarLexer';
-import { QuerySeparationGrammarParser } from './_genfiles/QuerySeparationGrammarParser';
-import { QuerySeparationGrammarListener } from './_genfiles/QuerySeparationGrammarListener';
+import { QuerySeparationGrammarLexer } from './QuerySeparationGrammarLexer';
+import { QuerySeparationGrammarParser } from './QuerySeparationGrammarParser';
+import { QuerySeparationGrammarListener } from './QuerySeparationGrammarListener';
 import { CustomListener } from'./CustomListener';
 
 export const SplitQueries = (input) => {
