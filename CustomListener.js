@@ -1,4 +1,4 @@
-var QuerySeparationGrammarListener = require('./_genfiles/QuerySeparationGrammarListener').QuerySeparationGrammarListener;
+var QuerySeparationGrammarListener = require('./QuerySeparationGrammarListener').QuerySeparationGrammarListener;
 
 var CustomListener = function(result) {
   this.result = result;
